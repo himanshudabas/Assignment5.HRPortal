@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+header {
+    padding: 10px;
+    color: white;
+    border: 1px #6c757d solid;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    color: white;
+    border: 1px #6c757d solid;
+
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    justify-content: center;
+    display:flex;
+    border: 1px #6c757d solid;
+    align-items:center;
+}
+
+footer span {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+table img {
+    max-height: 150px;
+    width: auto;
+}
+
+table th {
+    text-align: center;
+}
+
+table tbody tr {
+    text-align: center;
+}
+
+.alert {
+    margin-bottom: 5px;
+    height: 40px;
+    line-height:40px;
+    padding:0 20px;
+}
+
+#alert-box button.btn-close {
+    padding:11px 16px;
+}
+
+td button {
+    background-color: transparent !Important;
+}
+
+/* Date Picker CSS */
+
+[type="date"]::-webkit-inner-spin-button {
+    cursor: pointer;
+
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 100;
+    cursor: pointer;
+}
+
+/* custom styles */
+
+label {
+    display: block;
+}
+#flightDate {
+    height: 38px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 6px 12px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 190px;
+}
+
+/* Date Picker CSS END*/
